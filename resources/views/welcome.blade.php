@@ -18,66 +18,19 @@
             <div class="col text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
                 <h2 class="font-weight-bold text-color-light mb-2">Virtual Tour Services</h2>
                 <p class="text-color-light opacity-7">
-                    360 Virtual Tour adalah simulasi akurat dari suatu lokasi yang dapat dilihat secara 360 derajat.
-                    Virtual Tour berbasis website jadi dapat diakses kapan saja dan dimana saja.
-                    360 Virtual Tour menghadirkan sebuah pengalaman unik dan praktis yang menjangkau lebih banyak viewers dengan cara mudah karena aksesibel melalui smartphone.
-                </p>
+                    360 Virtual Tour is an accurate simulation of a location that can be viewed in 360 degrees.
+                    The website-based Virtual Tour can be accessed anytime and anywhere.
+                    360 Virtual Tour presents a unique and practical experience that reaches more viewers in an easy way because it is accessible via smartphones.                </p>
             </div>
         </div>
-        <div class="row mb-lg-4">
-            <div class="col-lg-4 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="300">
-                <div class="feature-box feature-box-style-2">
-                    <div class="fa-3x">
-                        <i class="fa-solid fa-map-location-dot text-color-light"></i>
-                    </div>
-                    <div class="feature-box-info">
-                        <h4 class="font-weight-bold text-color-light text-4 mb-2">Integrasi Google Map</h4>
-                        <p class="text-color-light opacity-7" style="text-align: justify">
-                            Selain melalui website, Virtual Tour juga dapat diakses melalui Google Maps.
-                            Google menyediakan vitur 360 dimana kita dapat mengintegrasikan Virtual Tour kami.
-                            Intergrasi tersebut menambah daya tarik kepada viewers yang mengakses melalui Google Maps,
-                            sehingga membuka banyak peluang untuk Virtual Tour dapat diakses.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 appear-animation" data-appear-animation="fadeInUpShorter">
-                <div class="feature-box feature-box-style-2">
-                    <div class="fa-3x"> 
-                        <i class="fa-solid fa-vr-cardboard text-color-light"></i>
-                    </div>
-                    <div class="feature-box-info">
-                        <h4 class="font-weight-bold text-color-light text-4 mb-2">Aerial Virtual Tour</h4>
-                        <p class="text-color-light opacity-7" style="text-align: justify">
-                            Merupakan Virtual Tour yang kami buat dari udara dengan menggunakan teknologi drone.
-                            VT ini merupakan solusi bagi lokasi yang memiliki kawasan luas atau landscape untuk dapat dilihat udara.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
-                <div class="feature-box feature-box-style-2">
-                    <div class="fa-3x">
-                        <i class="fa-brands fa-instagram text-color-light"></i>
-                    </div>
-                    <div class="feature-box-info">
-                        <h4 class="font-weight-bold text-color-light text-4 mb-2">Menerapkan Virtual Tour Melalui Filter Instagram</h4>
-                        <p class="text-color-light opacity-7" style="text-align: justify">
-                            Selain dapat diakses melalui website, Virtual Tour yang kami buat dapat dimasukkan ke halaman instagram sebagai filter.
-                            Penerapan filter 360 pada instagram akan memberikan pengalaman unik dan daya tarik lebih kepada pengunjung instagram.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+    </div>
     </div>
 </section>
 
 <div id="project" class="container py-2">
     <div class="row pt-1 mt-1 mb-3">
         <div class="col text-center appear-animation" data-appear-animation="fadeInUpShorter">
-            <h2 class="font-weight-bold mb-1">Project</h2>         
+            <h2 class="font-weight-bold mb-1">Projects</h2>         
         </div>
     </div>
 
@@ -121,7 +74,7 @@
         </div>
         @empty
             <div class="alert alert-danger">
-                Data form belum Tersedia.
+                Form data not yet available.
             </div>
         @endforelse
         {{ $forms ->links() }}
@@ -138,7 +91,7 @@
                     </div>
                     <div class="feature-box-info ps-1">
                         <h5 class="font-weight-light text-color-light opacity-7 mb-0">EMAIL US NOW</h5>
-                        <a href="mailto:daya.handika@harma-digital.com" class="text-color-light font-weight-semibold mb-0 text-decoration-none">daya.handika@harma-digital.com</a>
+                        <a href="mailto:alliong75@gmail.com" class="text-color-light font-weight-semibold mb-0 text-decoration-none">alliong75@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +102,7 @@
                     </div>
                     <div class="feature-box-info ps-1">
                         <h5 class="font-weight-light text-color-light opacity-7 mb-0">CALL US NOW</h5>
-                        <a href="tel:+8001234567" class="text-color-light font-weight-semibold text-decoration-none">+62 857-2517-9548</a>
+                        <a href="tel:+6285795033363" class="text-color-light font-weight-semibold text-decoration-none">+62 857-9503-3363</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +114,7 @@
                     <div class="feature-box-info ps-1">
                         <h5 class="font-weight-light text-color-light opacity-7 mb-0">FOLLOW US</h5>
                         <p class="mb-0">
-                            <span class="social-icons-instagram "><a style="text-decoration: none;" href="https://www.instagram.com/harma.digital/?hl=id" target="_blank" class="text-color-light font-weight-semibold" title="Linkedin"><i class="me-1 fab fa-instagram"></i> INSTAGRAM</a></span>
+                            <span class="social-icons-instagram "><a style="text-decoration: none;" href="https://www.instagram.com/alliong_k/?hl=en" target="_blank" class="text-color-light font-weight-semibold" title="Linkedin"><i class="me-1 fab fa-instagram"></i> INSTAGRAM</a></span>
                         </p>
                     </div>
                 </div>

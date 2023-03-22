@@ -12,13 +12,13 @@ class LandingPageController extends Controller
 
     public function __construct()
     {
-        $this->metaTag['title']='Harma Digital VT';
-        $this->metaTag['description']='Virtual Tour by Harma-Digital';
-        $this->metaTag['tag']='Vitual Tour, 360, Harma-Digital, Semarang, Indonesia, VT';
+        $this->metaTag['title']='Wisata VT';
+        $this->metaTag['description']='Virtual Tour by Wisata VT';
+        $this->metaTag['tag']='Vitual Tour, 360, Wisata VT';
         $this->metaTag['url']=url('/');
         $this->metaTag['time']=date('Y-m-d H:i:s');
-        $this->metaTag['image']= asset('front/img/logo-green.png');
-        $this->metaTag['image_logo_horizontal']=asset('front/img/logo-green.png');
+        $this->metaTag['image']= asset('front/img/wisata-vt-logo.png');
+        $this->metaTag['image_logo_horizontal']=asset('front/img/wisata-vt-logo.png');
         $this->metaTag['favicon']=asset('front/img/favicon.ico');
         $this->metaTag['apple_touch']=asset('front/img/apple-touch-icon.png');
         $this->metaTag['g_analytics']='G-GZZS0CSHNN';
@@ -45,7 +45,7 @@ class LandingPageController extends Controller
         $this->metaTag['section']='Virtual Tour '.$form->nama_vt;
         $this->metaTag['title']= $this->metaTag['title'].' | '.$form->seo_tittle;
         $this->metaTag['time']=Carbon::parse($form->created_at);
-        $this->metaTag['description']='Virtual Tour '.$form->nama_vt.' by Harma-Digital';
+        $this->metaTag['description']='Virtual Tour '.$form->nama_vt.' by Wisata VT';
         
         $metaTag=$this->metaTag;
 

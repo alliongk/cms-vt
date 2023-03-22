@@ -6,18 +6,17 @@
 		<!-- CSRF Token -->
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 		<meta name="base_url" content="{{ url('/') }}">
-
-		<title>Harma Digital</title>
+		<title>Wisata VT</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
-		<meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
+		<meta name="description" content="Wisata VT" />
+		<meta name="keywords" content="Wisata VT" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="article" />
-		<meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
-		<meta property="og:url" content="https://keenthemes.com/metronic" />
-		<meta property="og:site_name" content="Keenthemes | Metronic" />
-		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+		<meta property="og:title" content="Wisata VT" />
+		<meta property="og:url" content="{{ url('/') }}" />
+		<meta property="og:site_name" content="Wisata VT" />
+		<link rel="canonical" href="" />
 		<link rel="shortcut icon" href="{{ asset('front/img/favicon.ico') }}" type="image/x-icon" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -45,7 +44,7 @@
 					<div class="aside-logo flex-column-auto" id="kt_aside_logo">
 						<!--begin::Logo-->
 						<a href="{{ url('/') }}">
-							<img alt="Logo" class="h-50px logo" src="{{ asset('front/img/logo_white-1.png') }}">
+							<img alt="Logo" class="h-200px logo" src="{{ asset('front/img/wisata-vt-logo.png') }}">
 						</a>
 						<!--end::Logo-->
 						<!--begin::Aside toggler-->
@@ -95,7 +94,7 @@
 											</span>
 											<!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">List VT</span>
+										<span class="menu-title">List Virtual Tour</span>
 									</a>
 								</div>
 							</div>
@@ -176,22 +175,9 @@
 							<!--begin::Copyright-->
 							<div class="text-dark order-2 order-md-1">
 								<span class="text-muted fw-bold me-1">2022©</span>
-								<a href="#" target="_blank" class="text-gray-800 text-hover-primary">Harma Digital</a>
+								<a href="#" target="_blank" class="text-gray-800 text-hover-primary">Wisata VT</a>
 							</div>
 							<!--end::Copyright-->
-							<!--begin::Menu-->
-							<ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
-								<li class="menu-item">
-									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
-								</li>
-								<li class="menu-item">
-									<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-								</li>
-							</ul>
-							<!--end::Menu-->
 						</div>
 						<!--end::Container-->
 					</div>

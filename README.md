@@ -1,5 +1,5 @@
 
-![harma-digital.com](https://harma-digital.com/logo_green.png)
+![]()
 # CMS VT
 
 # Stacks

@@ -43,12 +43,6 @@
                         <i class="fas fa-arrow-down ms-1"></i>
                     </a>
                 </div>
-                <div class="col-sm-6 text-lg-end my-4 my-lg-0">
-                    <div class="post-block post-author">
-                        <div class="addthis_inline_share_toolbox"></div>
-                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-635618abfa3694b4"></script>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

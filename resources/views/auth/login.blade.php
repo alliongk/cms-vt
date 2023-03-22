@@ -13,7 +13,7 @@
             </a>
             <!--end::Logo-->
             <!--begin::Title-->
-            <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #986923;">Welcome to Harma Digital</h1>
+            <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #986923;">Welcome to Wisata VT</h1>
             <!--end::Title-->
             <!--begin::Description-->
             <p class="fw-bold fs-2" style="color: #986923;">Discover Amazing Virtual Tour
@@ -75,7 +75,7 @@
                 <!--begin::Heading-->
                 <div class="text-center mb-10">
                     <!--begin::Title-->
-                    <h1 class="text-dark mb-3">Sign In to Dashboard</h1>
+                    <h1 class="text-dark mb-3">Sign In</h1>
                     <!--end::Title-->
                 </div>
                 <!--begin::Heading-->

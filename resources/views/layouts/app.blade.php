@@ -86,7 +86,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="{{ url('/') }}">
-											<img alt="Porto" width="150" height="60" src="{{ asset('front/img/logo_white-1.png') }}">
+											<img alt="Porto" width="200" height="150" src="{{ asset('front/img/wisata-vt-logo.png') }}">
 										</a>
 									</div>
 								</div>
@@ -136,7 +136,7 @@
 					<div class="container py-2">
 						<div class="row py-4">
 							<div class="col d-flex align-items-center justify-content-center">
-								<p><strong>HARMA DIGITAL</strong> - © Copyright 2022. All Rights Reserved.</p>
+								<p><strong>WISATA VT</strong> - © Copyright 2022. All Rights Reserved.</p>
 							</div>
 						</div>
 					</div>

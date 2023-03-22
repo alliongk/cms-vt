@@ -51,7 +51,7 @@
                         <!--end::Hint-->
                     </div>
                     <div class="mb-10">
-                        <label for="exampleFormControlInput1" class="required form-label">Nama VT</label>
+                        <label for="exampleFormControlInput1" class="required form-label">Name VT</label>
                         <input type="text" name="nama_vt"  value="{{ $form->nama_vt }}" class="form-control form-control-solid @error('nama_vt') is-invalid @enderror" />
                         @error('nama_vt')
                         <div class="invalid-feedback">  
@@ -69,7 +69,7 @@
                         @enderror 
                     </div>
                     <div class="mb-10">
-                        <label for="exampleFormControlInput1" class="required form-label">Deskripsi Singkat</label>
+                        <label for="exampleFormControlInput1" class="required form-label">Description</label>
                         <textarea class="form-control form-control-solid @error('description') is-invalid @enderror" name="description" id="" cols="30" rows="10">{{ $form->description }}</textarea>
                         @error('description')
                         <div class="invalid-feedback">  
@@ -87,7 +87,7 @@
                     <div class="mb-10">
                         <label for="type_id" class="required form-label">Type VT</label>
                         <select class="form-select" name="type_id" id="type_id" aria-label="Select example" >
-                            <option disabled selected>Pilih satu!</option>
+                            <option disabled selected>Select one!</option>
                             @foreach($tp as $type)
                                 <option {{ $type->id == $form->type_id ? 'selected' : '' }} value="{{ $type->id }}">{{ $type->type }}</option>
                             @endforeach

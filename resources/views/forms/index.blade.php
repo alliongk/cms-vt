@@ -8,14 +8,14 @@
                 <div class="card-title m-0">
                     <!--begin::Avatar-->
                     <div class="">
-                        <h1 class="text-black-900 fw-semibold" >Daftar Virtual Tour</h1>
+                        <h1 class="text-black-900 fw-semibold" >List Virtual Tour</h1>
                     </div>
                     <!--end::Avatar-->
                 </div>
                 <!--end::Car Title-->
                 <!--begin::Card toolbar-->
                 <div class="card-toolbar">
-                    <a href="{{ route('home.forms.create') }}" class="btn btn-sm btn-primary">TAMBAH FORM</a>
+                    <a href="{{ route('home.forms.create') }}" class="btn btn-sm btn-primary">ADD FORM</a>
                 </div>
                 <!--end::Card toolbar-->
             </div>
@@ -24,9 +24,9 @@
                     <table id="kt_datatable_example_1" class="table align-middle table-row-dashed table-responsive fs-6 gy-5">
                         <thead>
                             <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
-                                <th>Nama VT</th>
+                                <th>Name VT</th>
                                 <th>Excerpt</th>
-                                <th>Deskripsi Singkat</th>
+                                <th>Description</th>
                                 <th>Status</th>
                                 <th>Type VT</th>
                                 <th>Link VT</th>
@@ -134,13 +134,13 @@
         function change_status_delete_pages(idVT)
         {
             swal.fire({
-                title: 'Apakah anda yakin?',
-                text: "VT Akan Dihapus",
+                title: 'Are you sure?',
+                text: "VT Will Be Deleted",
                 icon: 'warning',
                 showCancelButton: true,
                 confirmButtonColor: '#3085d6',
                 cancelButtonColor: '#d33',
-                confirmButtonText: 'Ya, Hapus!',
+                confirmButtonText: 'Yes, Delete!',
                 showLoaderOnConfirm: true,
                     
                 preConfirm: function() {
@@ -153,7 +153,7 @@
                         }).done(function(response){
                             swal.fire({
                                 title: "Sukses",
-                                text: "VT berhasil di hapus!",
+                                text: "VT successfully deleted!",
                                 timer: 1500,
                                 showConfirmButton: false,
                                 icon: 'success'
@@ -162,11 +162,12 @@
                                 }
                             );
                         }).fail(function(){
-                                swal.fire('Oops...', 'Ada yang salah, silakan coba lagi!', 'error')
+                                swal.fire('Oops...', 'Something went wrong, please try again!', 'error')
                             });
                     });
                 },allowOutsideClick: false			  
             });	
         }
     </script>
+
 @endsection
