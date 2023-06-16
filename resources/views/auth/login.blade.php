@@ -9,7 +9,7 @@
         <div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
             <!--begin::Logo-->
             <a href="#" class="py-1 mb-1">
-                <img alt="Logo" width="150" height="60" src="{{ asset('front/img/logo_white-1.png') }}">
+                <img alt="Logo" width="200" height="150" src="{{ asset('front/img/wisata-vt-logo.png') }}">
             </a>
             <!--end::Logo-->
             <!--begin::Title-->
